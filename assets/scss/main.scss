@@ -1,0 +1,29 @@
+body {
+  background: #f3f3f3;
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 768px;
+  margin: auto;
+  padding: 25px;
+
+  #transcript {
+    margin-top: 15px;
+    background: #171717;
+    padding: 15px;
+    min-height: 500px;
+    overflow: scroll;
+
+    p {
+      color: #f3f3f3;
+    }
+
+    .command {
+      color: gold;
+    }
+  }
+}
